@@ -1,58 +1,112 @@
-# AI Workplace Hub
+# AI Workplace Productivity Assistant
 
-Build a modern, responsive web app called AI Workplace Productivity Assistant for professionals.
+## Project Overview
 
-Core Features
+**AI Workplace Productivity Assistant** is a modern, AI-powered web application designed to help professionals complete common workplace tasks more efficiently.
 
-Smart Email Generator: Generate complete AI-written workplace emails with Formal, Friendly, and Persuasive tones.
+The application provides AI assistance for writing professional emails, researching and summarising information, and answering workplace-related questions through an interactive chatbot.
 
-AI Research Assistant: Users enter a topic, text, or article URL and receive an AI-generated summary, insights, and recommendations.
+The project focuses on a clean SaaS-style interface that is simple, responsive, and easy to use.
 
-AI Workplace Chatbot: Interactive AI assistant that answers workplace-related prompts and questions.
+## Features Implemented
 
-UI & UX
+### 📧 Smart Email Generator
 
-Clean, modern SaaS dashboard.
+* Generate professional workplace emails using AI.
+* Choose between:
 
-Light grey and dark professional color palette.
+  * Formal
+  * Friendly
+  * Persuasive
+* Edit generated content before using it.
+* Copy generated emails easily.
+* Regenerate responses when needed.
 
-Sidebar navigation: Dashboard, Email Generator, Research Assistant, AI Chat.
+### 🔎 AI Research Assistant
 
-Responsive for desktop and mobile.
+* Enter a topic, text, or article URL.
+* Generate AI-powered summaries.
+* Receive insights and recommendations.
+* Edit and copy generated results.
 
-AI outputs must be editable, copyable, and easy to regenerate.
+### 💬 AI Workplace Chatbot
 
-Include loading states and clear error messages.
+* Interactive AI workplace assistant.
+* Responds to workplace-related prompts and questions.
+* Provides AI-generated responses.
+* Simple conversational interface.
 
-Add a responsible AI disclaimer.
+### 🎨 User Interface
 
-Technical Requirements
+* Modern SaaS dashboard design.
+* Light grey and dark professional colour scheme.
+* Sidebar navigation.
+* Responsive desktop and mobile layout.
+* Editable AI outputs.
+* Loading states and error handling.
+* Responsible AI disclaimer.
 
-Frontend only — no backend, database, registration, login, or user accounts.
+## Technologies & Tools Used
 
-All generated content should be AI-generated.
+* **React** – Frontend application development
+* **JavaScript** – Application logic
+* **HTML5** – Application structure
+* **CSS** – Styling and responsive design
+* **AI API** – AI-generated workplace content and responses
+* **Lovable** – Application development and UI generation
+* **GitHub** – Version control and project repository
 
-Use structured prompts for consistent, professional responses.
+## Setup Instructions
 
-Keep the interface simple, professional, and practical. Avoid flashy or gamified design.
+### 1. Clone the Repository
 
-This project was built with [Lovable](https://lovable.dev).
+```bash
+git clone https://github.com/your-username/ai-workplace-productivity-assistant.git
+```
 
-## Build with Lovable
+### 2. Navigate to the Project
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/51401e0a-280c-4b33-8a3d-4be758de1b72).
+```bash
+cd ai-workplace-productivity-assistant
+```
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+### 3. Install Dependencies
 
-## Development
+```bash
+npm install
+```
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+### 4. Configure AI Services
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+If the project requires an AI API, add the required API configuration to the project's environment variables according to the AI provider being used.
+
+Do not commit API keys or other sensitive credentials to GitHub.
+
+### 5. Start the Development Server
+
+```bash
 npm run dev
 ```
+
+Open the local development URL provided by the terminal to use the application.
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── pages/
+├── services/
+├── assets/
+└── App.jsx
+```
+
+## Responsible AI
+
+This application is intended to assist with workplace productivity. AI-generated content should be reviewed and verified by the user before being used for professional decisions or communications.
+
+## Project Status
+
+**Status:** Completed / In Development
+
+This project is continuously improved with additional AI productivity features and interface enhancements.
